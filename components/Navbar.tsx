@@ -30,10 +30,11 @@ export default function Navbar() {
           : "1px solid rgba(241,192,149,0.15)",
         position: "sticky",
         top: 0,
+        width: "100%",
+        left: 0,
         zIndex: 50,
         transition: "all 0.3s ease",
         padding: "20px 0",
-        
       }}
     >
       <div className="flex items-center justify-between px-10 py-[22px]">

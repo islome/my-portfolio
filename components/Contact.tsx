@@ -144,11 +144,10 @@ export default function Contact() {
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "1fr 1fr",
           gap: "32px",
           alignItems: "start",
         }}
-        className="grid-cols-1 md:grid-cols-2"
+        className="grid grid-cols-1 md:grid-cols-2"
       >
         {/* ── Social links ── */}
         <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
@@ -230,9 +229,9 @@ export default function Contact() {
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "1fr 1fr",
               gap: "12px",
             }}
+            className="grid grid-cols-1 md:grid-cols-2"
           >
             <input
               style={inputStyle}

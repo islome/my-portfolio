@@ -72,6 +72,8 @@ function ProjectCard({ project }: { project: Project }) {
             src={project.image}
             alt={`${project.siteName} screenshot`}
             fill
+            loading="lazy"
+            sizes="(max-width: 768px) 100vw, 340px"
             style={{ objectFit: "cover" }}
           />
         ) : (

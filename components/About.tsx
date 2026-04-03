@@ -47,11 +47,10 @@ export default function About() {
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "1fr 260px",
           gap: "40px",
           alignItems: "start",
         }}
-        className="grid-cols-1 md:grid-cols-[1fr_260px]"
+        className="grid grid-cols-1 md:grid-cols-[1fr_260px]"
       >
         <div>
           <p
