@@ -29,7 +29,8 @@ export const metadata: Metadata = {
     "Toshkent",
   ],
   icons: {
-    icon: "/logo.png",
+    icon: "/icon.png",
+    apple: "/icon.png",
   },
   creator: "Islom Kamoliddinov",
   publisher: "Islom Kamoliddinov",
