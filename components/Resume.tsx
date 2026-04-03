@@ -66,7 +66,7 @@ export default function Resume() {
               PDF fayl
             </div>
             <div style={{ fontSize: "13.5px", color: "var(--cream)", fontWeight: 500 }}>
-              Islom_Kamoliddinov_CV.pdf
+              Islombek_cv.pdf
             </div>
           </div>
 
@@ -92,7 +92,7 @@ export default function Resume() {
             onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")}
           >
             <Download size={15} />
-            Yuklab olish
+            <span className="hidden sm:block">Yuklab olish</span>
           </a>
         </div>
       </div>
