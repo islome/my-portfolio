@@ -168,6 +168,7 @@ export default function Contact() {
                   padding: "16px 18px",
                   textDecoration: "none",
                   transition: "border-color 0.2s",
+                  width: "100%",
                 }}
                 onMouseEnter={(e) =>
                   (e.currentTarget.style.borderColor = "rgba(213,80,83,0.35)")
@@ -194,7 +195,7 @@ export default function Contact() {
                 >
                   <Icon size={18} color={iconColor} />
                 </div>
-                <div>
+                <div style={{ textAlign: "left" }}>
                   <div
                     style={{
                       fontSize: "11px",
