@@ -51,8 +51,8 @@ export default function Contact() {
     e.preventDefault();
     setStatus("sending");
 
-    const token = process.env.BOT_TOKEN || "8388511832:AAEDlfKzQt7OLyHbSn_RNCxTDazcYmw1VG8";
-    const chatId = process.env.CHAT_ID || "1474753528";
+    const token = process.env.BOT_TOKEN;
+    const chatId = process.env.CHAT_ID;
 
     const text = `
     📩 Yangi xabar:
