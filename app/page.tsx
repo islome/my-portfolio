@@ -1,21 +1,21 @@
 import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import Projects from "@/components/Projects";
-import TechStack from "@/components/TechStack";
-import About from "@/components/About";
-import Resume from "@/components/Resume";
-import Contact from "@/components/Contact";
+import Hero from "@/components/sections/Hero";
+import About from "@/components/sections/About";
+import Skills from "@/components/sections/Skills";
+import Projects from "@/components/sections/Projects";
+import Experience from "@/components/sections/Experience";
+import Contact from "@/components/sections/Contact";
 import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="max-w-[960px] mx-auto">
+    <main className="min-h-screen bg-[#f8f6f2]">
       <Navbar />
       <Hero />
-      <Projects />
-      <TechStack />
       <About />
-      <Resume />
+      <Skills />
+      <Projects />
+      <Experience />
       <Contact />
       <Footer />
     </main>

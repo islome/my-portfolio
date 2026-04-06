@@ -1,44 +1,26 @@
 import type { Metadata } from "next";
-import { Syne, DM_Sans } from "next/font/google";
 import "./globals.css";
 
-const syne = Syne({
-  subsets: ["latin"],
-  variable: "--font-syne",
-  weight: ["400", "600", "700", "800"],
-  display: "swap",
-});
-
-const dmSans = DM_Sans({
-  subsets: ["latin"],
-  variable: "--font-dm",
-  weight: ["300", "400", "500"],
-  style: ["normal", "italic"],
-  display: "swap",
-});
-
 export const metadata: Metadata = {
-  title: "Islom Kamoliddinov — Frontend Developer",
+  title: "Islombek Kamoliddinov — Frontend Developer",
   description:
-    "Tezkor, qulay va SEO-optimallashgan interfeyslar yarataman. Dizayner ko'zi bilan, dasturchi qo'li bilan.",
+    "Software & Frontend Developer. Student, freelancer, self-employee. Building real products with Next.js, React, TypeScript and more.",
   keywords: [
     "Frontend Developer",
-    "React",
     "Next.js",
+    "React",
     "TypeScript",
-    "Toshkent",
+    "Islombek Kamoliddinov",
   ],
   icons: {
     icon: "/icon.png",
     apple: "/icon.png",
   },
-  creator: "Islom Kamoliddinov",
-  publisher: "Islom Kamoliddinov",
-  viewport: "width=device-width, initial-scale=1",
-  authors: [{ name: "Islom Kamoliddinov" }],
+  authors: [{ name: "Islombek Kamoliddinov" }],
   openGraph: {
-    title: "Islom Kamoliddinov — Frontend Developer",
-    description: "Tezkor, qulay va SEO-optimallashgan interfeyslar yarataman.",
+    title: "Islombek Kamoliddinov — Frontend Developer",
+    description:
+      "Software & Frontend Developer. Student, freelancer, self-employee.",
     type: "website",
   },
 };
@@ -49,8 +31,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="uz" className={`${syne.variable} ${dmSans.variable}`}>
-      <body>{children}</body>
+    <html lang="en" className="scroll-smooth">
+      <body className="antialiased">{children}</body>
     </html>
   );
 }
