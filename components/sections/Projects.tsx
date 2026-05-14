@@ -38,7 +38,7 @@ const projects = [
     number: "4",
     name: "BroTest",
     description:
-      "A testing framework for JavaScript and TypeScript. Built with Node.js, it offers a simple and intuitive API for writing tests. BroTest is designed to be fast, reliable, and easy to use, making it a great choice for developers of all skill levels.",
+      "This app is for a students who want to take drivers license tests more easy and efficiently. Features include practice tests, progress tracking, and a user-friendly interface. Built with Next.js and Supabase, it provides a seamless experience for learners. A must-have tool for anyone preparing for their driving test.",
     tags: ["Next.js", "Supabase", "RestAPI"],
     github: "https://github.com/islome/brotest",
     live: "https://brotest.vercel.app",
