@@ -104,7 +104,7 @@ export default function Hero() {
           >
             <div className="relative">
               <div className="absolute -inset-3 border border-[#c9a84c]/30 -z-10" />
-              <div className="relative aspect-[3/4] w-full overflow-hidden bg-[#1e3a5f]/5">
+              <div className="relative aspect-[3/4] w-full rounded-sm overflow-hidden bg-[#1e3a5f]/5">
                 <Image
                   width={500}
                   height={600}
@@ -112,7 +112,7 @@ export default function Hero() {
                   alt="Islombek Kamoliddinov"
                   priority
                   sizes="(max-width: 1024px) 100vw, 400px"
-                  className="object-cover"
+                  className="object-cover transition-transform duration-500 ease-out hover:scale-[1.2]"
                 />
               </div>
             </div>
