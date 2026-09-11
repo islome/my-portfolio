@@ -18,21 +18,21 @@ const projects = [
   },
   {
     number: "2",
-    name: "Football Hub",
+    name: "Broller",
     description:
-      "A football dashboard for live stats, matches and updates. Built with React and Node.js, it integrates with football APIs to provide real-time data. A must-have for football fans.",
+      "A Marketplace for the business owners who focus on brollers. This project is built using Next.js, Node.js, and API integration. It provides a seamless experience for users to buy and sell brollers equipment online.",
     tags: ["Next.js", "Node.js", "API"],
-    github: "https://github.com/islome/football-hub", 
-    live: "https://football-hub-navy.vercel.app", 
+    github: "https://github.com/islome/broller", 
+    live: "https://broller.uz", 
   },
   {
     number: "3",
-    name: "Best Globalize",
+    name: "Global HR",
     description:
       "Company that offers jobs for uzbek citizens in the global market. Built with Next.js and Supabase, it provides a seamless experience for job seekers and employers. A platform that connects talent with opportunity worldwide.",
     tags: ["Next.js", "Supabase", "PostgreSQL"],
     github: "https://github.com/islome/migration", 
-    live: "https://migration-beta.vercel.app", 
+    live: "https://namglobalhr.uz", 
   },
   {
     number: "4",
@@ -42,7 +42,15 @@ const projects = [
     tags: ["Next.js", "Supabase", "RestAPI"],
     github: "https://github.com/islome/brotest",
     live: "https://brotest.vercel.app",
-  }
+  },
+  {
+    number: "5",
+    name: "BroTris",
+    description: "A simple and fun Tetris game built with React and TypeScript. It features classic gameplay, responsive design, and smooth animations. A great way to pass the time and challenge your skills in offline mode.",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+    github: "https://github.com/islome/brotris",
+    live: "https://brotris.vercel.app",
+  },
 ];
 
 export default function Projects() {
