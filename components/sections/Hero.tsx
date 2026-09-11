@@ -18,7 +18,7 @@ export default function Hero() {
       <div className="absolute left-6 top-1/2 -translate-y-1/2 hidden lg:flex flex-col items-center gap-3">
         <div className="w-px h-24 bg-[#c9a84c]/40" />
         <span className="text-xs font-mono text-[#4a6080] rotate-90 tracking-widest">
-          2025
+          2026
         </span>
         <div className="w-px h-24 bg-[#c9a84c]/40" />
       </div>
@@ -34,7 +34,7 @@ export default function Hero() {
           >
             <div className="w-8 h-px bg-[#c9a84c]" />
             <span className="text-xs font-mono font-medium text-[#c9a84c] tracking-widest uppercase">
-              Software & Frontend Developer
+              Software Engineer & Frontend Developer
             </span>
           </motion.div>
 
@@ -47,7 +47,7 @@ export default function Hero() {
           >
             Islombek
             <br />
-            <span className="text-[#1e3a5f]">Kamoliddinov</span>
+            <span className="text-[#0f2035]">Kamoliddinov</span>
             <span className="text-[#c9a84c]">.</span>
           </motion.h1>
 
@@ -100,9 +100,9 @@ export default function Hero() {
             className="flex flex-wrap gap-8 mt-16 pt-8 border-t border-[#1e3a5f]/10"
           >
             {[
-              { value: "1+", label: "Year Freelancing" },
-              { value: "3+", label: "Projects Shipped" },
-              { value: "3rd", label: "Year at IT University" },
+              { value: "2+", label: "Year Freelancing" },
+              { value: "4+", label: "Projects Shipped" },
+              { value: "4th", label: "Year at PDP University" },
             ].map((stat) => (
               <div key={stat.label}>
                 <div className="font-display text-3xl font-bold text-[#1e3a5f]">

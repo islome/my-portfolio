@@ -21,12 +21,12 @@ const experiences = [
   },
   {
     role: "IT University Student",
-    company: "IT University, Uzbekistan",
-    period: "2022 — Present",
+    company: "PDP University, Tashkent",
+    period: "2023 — 2027",
     location: "Tashkent, Uzbekistan",
     type: "Education",
     highlights: [
-      "Currently in 3rd year, specializing in software development",
+      "Currently in 4th year, specializing in software development",
       "Applying university knowledge directly in real-world freelance projects",
       "Continuously expanding skills in modern web technologies",
       "Actively building portfolio alongside academic studies",

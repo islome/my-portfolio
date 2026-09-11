@@ -22,7 +22,7 @@ const projects = [
     description:
       "A Marketplace for the business owners who focus on brollers. This project is built using Next.js, Node.js, and API integration. It provides a seamless experience for users to buy and sell brollers equipment online.",
     tags: ["Next.js", "Node.js", "API"],
-    github: "https://github.com/islome/broller", 
+    github: "", 
     live: "https://broller.uz", 
   },
   {
@@ -31,7 +31,7 @@ const projects = [
     description:
       "Company that offers jobs for uzbek citizens in the global market. Built with Next.js and Supabase, it provides a seamless experience for job seekers and employers. A platform that connects talent with opportunity worldwide.",
     tags: ["Next.js", "Supabase", "PostgreSQL"],
-    github: "https://github.com/islome/migration", 
+    github: "", 
     live: "https://namglobalhr.uz", 
   },
   {
@@ -131,16 +131,22 @@ export default function Projects() {
 
               {/* Links */}
               <div className="flex items-center gap-3 shrink-0">
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={(e) => e.stopPropagation()}
-                  className="p-2 text-[#4a6080] hover:text-[#1e3a5f] hover:bg-[#1e3a5f]/8 rounded-sm transition-all"
-                  aria-label="GitHub"
-                >
-                  <FaGithub size={18} />
-                </a>
+                {project.github ? (
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => e.stopPropagation()}
+                    className="p-2 text-[#4a6080] hover:text-[#1e3a5f] hover:bg-[#1e3a5f]/8 rounded-sm transition-all"
+                    aria-label="GitHub"
+                  >
+                    <FaGithub size={18} />
+                  </a>
+                ) : (
+                  <span className="text-xs font-mono text-[#4a6080] whitespace-nowrap">
+                    Code not shareable
+                  </span>
+                )}
                 <a
                   href={project.live}
                   target="_blank"
